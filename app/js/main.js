@@ -9,6 +9,6 @@ if ( document.URL.includes("notification_5.html") ) {
     switchTabs (".js-tubList", ".js-tab",  ".js-tabContent");
 }
 
-if(window.location.pathname=='/') {
+if (document.URL.includes("index.html")) {
     bindModal("#popup3", "#popup-info", ".js-popupCall_close");
 }
