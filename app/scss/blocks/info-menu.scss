@@ -1,0 +1,124 @@
+.info-menu {
+  width: 420px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 100;
+  right: -420px;
+  top: 70px;
+  -webkit-transition: right 0.5s linear;
+  transition: right 0.5s linear;
+  overflow-x: hidden;
+
+  &.is-open {
+    right: 0;
+  }
+
+  &_title {
+    font-weight: 400;
+    color: #717171;
+    padding: 34px 9px 19px 16px;
+  }
+
+  &_block {
+    padding: 18px 9px 18px 16px;
+  }
+
+  &_block-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  &_block-bootom {
+    padding: 16px 24px 24px 24px;
+    background: #e5e5e5;
+  }
+
+  .article-date {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #bebebe;
+  }
+
+  &_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+    margin-top: 12px;
+  }
+
+  &_btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.right-menu .info-menu_block:nth-child(3n + 2) {
+  background: #f3fbff;
+  box-shadow: inset 0px 1px 0px #e5e5e5;
+}
+
+.right-menu .info-menu_block:nth-child(3n + 1) {
+  background-color: #f8f8f8;
+  box-shadow: inset 0px 1px 0px #e5e5e5;
+
+  .block_title {
+    color: rgba($color: #1f1f1f, $alpha: 0.75);
+    font-weight: 400;
+  }
+}
+
+.right-menu .info-menu_block:nth-child(3n + 3) {
+  background: #ffffff;
+  box-shadow: inset 0px 1px 0px #e5e5e5;
+
+}
+
+.tabs-content_list .info-menu_block:nth-child(2n + 1) {
+  background-color: #f8f8f8;
+  box-shadow: inset 0px 1px 0px #e5e5e5;
+  padding: 30px;
+
+  .block_title {
+    color: rgba($color: #1f1f1f, $alpha: 0.75);
+    font-weight: 400;
+  }
+}
+
+.tabs-content_list .info-menu_block:nth-child(2n) {
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 0px #E5E5E5;
+  padding: 30px;
+}
+
+// Empty menu
+
+.info-empty {
+  display: flex;
+  align-items: center;
+  padding: 90px;
+  &_title {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #1f1f1f;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 45px;
+      background-image: url(../img/icons/call.svg);
+      background-repeat: no-repeat;
+      top: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

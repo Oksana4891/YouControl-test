@@ -1,0 +1,62 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+  overflow-x: hidden;
+}
+
+.block_title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1a1a1a;
+}
+
+.btn {
+  display: block;
+  background: #2cbe60;
+  padding: 20px;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  min-height: 32px;
+}
+
+.btn_circle {
+  display: block;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 6px 7px;
+  min-height: 22px;
+  border-radius: 12px;
+}
+
+.btn--orange {
+  background: #f79e1b;
+}
+
+.btn--greеn {
+  background: #2cbe60;
+}
+
+.btn--blue {
+  background: #4cb8bf;
+}
+
+.btn--rad {
+  background:  #D0021B;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test YouControl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+        <!-- подключаем шапку -->
+        @@include('blocks/header.html')
+         <main>
+            <section class="main-block container">
+            <div class="content">
+                <img src="img/body.png" alt="">
+            </div>
+            </section>
+                
+         </main>
+        
+
+       
+         <!-- подключаем меню и попап -->
+         <div class="right-menu">
+         @@include('blocks/components/info-menu.html')
+         </div>
+         @@include('blocks/components/popup.html')
+        <!-- подключаем подвал -->
+        @@include('blocks/footer.html')
+ 
+
+    <!-- подключаем js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

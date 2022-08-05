@@ -1,0 +1,116 @@
+.footer {
+  font-weight: 500;
+  padding: 24px 26px 37px;
+
+
+  &_blocks { 
+    display: flex;
+    justify-content: space-between;
+     margin-left: 240px;
+  }
+
+  &_block-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 195px;
+  }
+
+
+  &_list {
+    padding-top: 12px;
+  }
+
+  &_pay-block {
+    margin-top: 45px;
+  }
+}
+
+.footer-menu {
+  li a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #1a1a1a;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.projects {
+  li {
+    padding-left: 30px;
+    position: relative;
+  }
+
+  li::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+  }
+
+  li:nth-child(1)::before {
+    background-image: url(../img/icons/i-youscore_logo.svg);
+  }
+
+  li:nth-child(2)::before {
+    background-image: url(../img/icons/i-extensions.svg);
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  &_link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #1a1a1a;
+    padding-bottom: 4px;
+  }
+  &_notes {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+
+.footer-info {
+  &_title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+  }
+}
+
+
+.footer-contact {
+  &_text {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+
+  &_btn {
+    margin-top: 8px;
+  }
+
+  &_phone {
+    font-size: 18px;
+    line-height: 21px;
+    color: #1a1a1a;
+    margin-top: 5px;
+  }
+
+  &_email {
+    font-size: 13px;
+    line-height: 15px;
+    color: #0091d9;
+    padding-top: 5px;
+  }
+}

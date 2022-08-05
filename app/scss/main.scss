@@ -1,0 +1,41 @@
+@import 'variables'; //пишем переменные
+@import 'reset'; //сборс стилей
+@import 'fonts'; //подключаем шрифты (локально)
+@import 'base'; //подключаем шрифты (локально)
+
+
+// Animation
+@import 'blocks/animation';
+
+//подключаем БЭМ блоки
+@import 'blocks/widget';
+@import 'blocks/header';
+
+// Main
+@import 'blocks/main-block';
+
+@import 'blocks/header';
+
+
+// Menu
+@import 'blocks/info-menu';
+
+// Popup
+@import 'blocks/popup-info';
+
+// Siderbar
+
+@import 'blocks/sidebar';
+
+
+// Tubs
+
+@import 'blocks/tabs-block.scss';
+
+
+
+
+// Footer
+@import 'blocks/contact-block';
+@import 'blocks/pay-block';
+@import 'blocks/footer';
